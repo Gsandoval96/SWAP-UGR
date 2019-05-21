@@ -9,15 +9,15 @@ Buscar información sobre las tareas o servicios web para los
 que se usan más los programas que comentamos al
 principio de la sesión:
 
-- *Apache*: es un servicio de código abierto (lo cuál le aporta una gran configurabilidad) cuya finalidad principal es la de servir páginas web.
+- **Apache**: es un servicio de código abierto (lo cuál le aporta una gran configurabilidad) cuya finalidad principal es la de servir páginas web.
 
-- *nginx*: se usa principalmente como balanceador de carga y como un proxy para protocolos de correo eléctrónico (como IMAP/POP3). Es usado por algunos sitios web muy conocidos como pueden ser: WordPress, Netflix o GitHub.
+- **nginx**: se usa principalmente como balanceador de carga y como un proxy para protocolos de correo eléctrónico (como IMAP/POP3). Es usado por algunos sitios web muy conocidos como pueden ser: WordPress, Netflix o GitHub.
 
-- *thttpd*: es simple, sencillo, rápido y seguro. Estos motivos lo hacen ideal para servir grandes cantidades de información estática.
+- **thttpd**: es simple, sencillo, rápido y seguro. Estos motivos lo hacen ideal para servir grandes cantidades de información estática.
 
-- *Cherokee*: está escrito en C y está bajo una Licencia Pública General de GNU. La versión básica es rápida y funcional, aunque soporta complemento que añaden diversas funcionalidades.
+- **Cherokee**: está escrito en C y está bajo una Licencia Pública General de GNU. La versión básica es rápida y funcional, aunque soporta complemento que añaden diversas funcionalidades.
 
-- *Node.js*: no se limita a poder desarrollar servidores web y es flexible y rápido.
+- **Node.js**: no se limita a poder desarrollar servidores web y es flexible y rápido.
 
 ## Tema 2
 
@@ -42,11 +42,11 @@ Buscar frameworks y librerías para diferentes lenguajes que
 permitan hacer aplicaciones altamente disponibles con
 relativa facilidad.
 
-- *PM2*: es un gestor de procesos de producción para las aplicaciones Node.js que tiene un equilibrador de carga incorporado. PM2 permite mantener siempre activas las aplicaciones y volver a cargarlas sin ningún tiempo de inactividad, a la vez que facilita tareas comunes de administrador del sistema. PM2 también permite gestionar el registro de aplicaciones, la supervisión y la agrupación en clúster.
+- **PM2**: es un gestor de procesos de producción para las aplicaciones Node.js que tiene un equilibrador de carga incorporado. PM2 permite mantener siempre activas las aplicaciones y volver a cargarlas sin ningún tiempo de inactividad, a la vez que facilita tareas comunes de administrador del sistema. PM2 también permite gestionar el registro de aplicaciones, la supervisión y la agrupación en clúster.
 
-- *Forever*: este gestor de procesos permite que un script se ejecute de manera continua sin interrupciones.
+- **Forever**: este gestor de procesos permite que un script se ejecute de manera continua sin interrupciones.
 
-- *StrongLoop Process Manager*:  es un gestor de procesos de producción para las aplicaciones Node.js. StrongLoop PM tiene incorporado un despliegue de equilibrio de carga, supervisión y varios hosts, así como una consola gráfica. Puede utilizar StrongLoop PM para las siguientes tareas
+- **StrongLoop Process Manager**:  es un gestor de procesos de producción para las aplicaciones Node.js. StrongLoop PM tiene incorporado un despliegue de equilibrio de carga, supervisión y varios hosts, así como una consola gráfica. Puede utilizar StrongLoop PM para las siguientes tareas
 
 ## Tema 3
 
@@ -82,8 +82,8 @@ La segunda forma es aprovechando las capacidades del servicio que estemos usando
 
 Buscar información acerca de los tipos de ataques más comunes en servidores web. Detallar en qué consisten, y cómo se pueden evitar.
 
-- *DDos*: Una ampliación del ataque DoS es el llamado ataque de denegación de servicio distribuido, también llamado DDoS (por sus siglas en inglés, Distributed Denial of Service) el cual se lleva a cabo generando un gran flujo de información desde varios puntos de conexión hacia un mismo punto de destino. Ambos tienen como objetivo sobrecargar el sistema y por consecuente, no dejar espacio a las peticiones reales de los usuarios.
+- **DDos**: Una ampliación del ataque DoS es el llamado ataque de denegación de servicio distribuido, también llamado DDoS (por sus siglas en inglés, Distributed Denial of Service) el cual se lleva a cabo generando un gran flujo de información desde varios puntos de conexión hacia un mismo punto de destino. Ambos tienen como objetivo sobrecargar el sistema y por consecuente, no dejar espacio a las peticiones reales de los usuarios.
 
-- *Phising*: es un método suplanta la identidad de un sitio web de confianza para que el usuario revele información personal, como contraseñas o datos de tarjetas de crédito. La principal defensa ante el phising es no utilizar url "extrañas", mantener actualizados los parches de seguridad y principalmente, mantener buenos hábitos en cuanto a no abrir adjuntos de correos que no sean de confianza o no dar información personal.
+- **Phising**: es un método suplanta la identidad de un sitio web de confianza para que el usuario revele información personal, como contraseñas o datos de tarjetas de crédito. La principal defensa ante el phising es no utilizar url "extrañas", mantener actualizados los parches de seguridad y principalmente, mantener buenos hábitos en cuanto a no abrir adjuntos de correos que no sean de confianza o no dar información personal.
 
-- *MITM*: Un ataque Man-In-The-Middle es un ataque en el que se consigue la capacidad de leer, modificar y reenviar datos a voluntad. De esta forma se puede acceder al contenido privado como, por ejemplo, datos confidenciales y contraseñas. Para más info: [](https://github.com/Gsandoval96/SWAP-UGR/tree/master/Trabajo)
+- **MITM**: Un ataque Man-In-The-Middle es un ataque en el que se consigue la capacidad de leer, modificar y reenviar datos a voluntad. De esta forma se puede acceder al contenido privado como, por ejemplo, datos confidenciales y contraseñas. Para más info: [](https://github.com/Gsandoval96/SWAP-UGR/tree/master/Trabajo)

@@ -38,4 +38,22 @@ Para finalizar este paso, reiniciamos el servicio usando:
 	sudo service nfs-kernel-server restart
 
 ## Configurar los clientes
+A continuación, en ambas máquinas, deberemos instalar los paquetes necesarios, crear el punto de montaje entre máquinas y montar la carpeta remota usando en M1: 
+
+	cd /home/gsandoval
+	mkdir carpetacliente
+	chmod -R 777 carpetacliente
+	sudo mount 192.168.56.106:/dat/compartida carpetacliente
+
+![](img/img4.png)
+
+Y usaremos los mismos comandos en M2 más *sudo apt-get install nfs-common rpcbind*, ya que no habíamos instalado todavía las herramientas necesarias.
+
+Finalmente, para automatizar el proceso, añadiremos al archivo de configuración */etc/fstab* la línea y reiniciamos las máquinas:
+
+	192.168.56.106:/dat/compartida /home/gsandoval/carpetacliente nfs auto,noatime,nolock,bg,nfsvers=3,intr,tcp,actimeo=1800 0 0
+
+Podemos comprobar que funciona TERMINAR
+
+
 

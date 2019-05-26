@@ -1,0 +1,41 @@
+# Practica 6. Servidor de disco NFS
+Realizada por Elena María Gómez Ríos y Guillermo Sandoval Schmidt.
+
+## Objetivos
+El objetivo principal de esta práctica es configurar un servidor NFS para exportar un
+espacio en disco a los servidores finales (que actuarán como clientes-NFS).
+Los objetivos concretos de esta práctica son:
+
+1. Configurar una máquina como servidor de disco NFS y exportar una carpeta a
+los clientes.
+2. Montar en las máquinas cliente la carpeta exportada por el servidor.
+3. Comprobar que la información que se escribe en una máquina en dicha carpeta
+se ve actualizada en el resto de máquinas que comparten ese espacio.
+
+## Configurar el servidor NFS
+Instalamos las herramientas necesarias en la máquina M1 usando el comando:
+
+	sudo apt-get install nfs-kernel-server nfs-common rpcbind
+
+![](img/img1.png)
+
+Creamos la carpeta que vamos a compartir, cambiando el propietario y dandole permisos usando:
+
+	mkdir /dat/compartida
+	sudo chown nobody:nogroup /dat/compartida/
+	sudo chmod -R 777 /dat/compartida/
+
+![](img/img2.png)
+
+Debemos modificar el archivo de configuración */etc/exports*, añadiendo las IPs de nuestras máquinas con la línea:
+
+	/dat/compartida/ 10.10.10.9(rw) 10.10.10.10(rw)
+
+![](img/img3.png)
+
+Para finalizar este paso, reiniciamos el servicio usando:
+
+	sudo service nfs-kernel-server restart
+
+## Configurar los clientes
+

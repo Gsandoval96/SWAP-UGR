@@ -53,6 +53,8 @@ Finalmente, para automatizar el proceso, añadiremos al archivo de configuració
 
 	192.168.56.106:/dat/compartida /home/gsandoval/carpetacliente nfs auto,noatime,nolock,bg,nfsvers=3,intr,tcp,actimeo=1800 0 0
 
+## Comprobación del funcionamiento
+
 Tras reiniciar las máquinas, podemos comprobar que funciona creando un archivo en la carpeta compartida desde una de las máquinas (en este caso en M2), pudiendo comprobar que es accesible desde la otra (en este caso M1) y viceversa, como se puede ver en la siguiente imagen:
 
 ![](img/img5.png)

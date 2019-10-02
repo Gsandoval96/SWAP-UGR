@@ -38,7 +38,7 @@ Para finalizar este paso, reiniciamos el servicio usando:
 	sudo service nfs-kernel-server restart
 
 ## Configurar los clientes
-A continuación, en ambas máquinas, deberemos instalar los paquetes necesarios, crear el punto de montaje entre máquinas y montar la carpeta remota usando en M1: 
+A continuación, en ambas máquinas, deberemos instalar los paquetes necesarios, crear el punto de montaje entre máquinas y montar la carpeta remota usando en M1:
 
 	cd /home/gsandoval
 	mkdir carpetacliente
@@ -58,6 +58,3 @@ Finalmente, para automatizar el proceso, añadiremos al archivo de configuració
 Tras reiniciar las máquinas, podemos comprobar que funciona creando un archivo en la carpeta compartida desde una de las máquinas (en este caso en M2), pudiendo comprobar que es accesible desde la otra (en este caso M1) y viceversa, como se puede ver en la siguiente imagen:
 
 ![](img/img5.png)
-
-
-

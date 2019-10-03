@@ -1,7 +1,5 @@
 # SWAP-UGR
 
-Prácticas hechas por Guillermo Sandoval Schmidt I de la DEIIT.
-
 - ### Práctica 1: [Creación de los servidores](P1/README.md)
 
 - ### Práctica 2: [Sincronización entre servidores](P2/README.md)

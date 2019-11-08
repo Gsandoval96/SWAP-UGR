@@ -13,3 +13,9 @@
 - ### Práctica 6: [Servidor de disco NFS](P6/README.md)
 
 - ### Trabajo: [Ataque MITM](Trabajo/Maninthemiddle.pdf)
+
+---
+
+Prácticas realizadas junto a [Elena María Gómez Ríos](https://github.com/elenamgr).
+
+Trabajo realizado junto a [Elena María Gómez Ríos](https://github.com/elenamgr) y [Nazaret Román Guerrero](https://github.com/nazaretrogue).
